@@ -1,0 +1,55 @@
+body {
+    font-family: "Cormorant Garamond", serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  float: right;
+}
+
+@media only screen and (max-width: 500px) {
+
+   .logo {
+       display: block;
+       margin: 0 auto;
+       padding: 0;
+   }
+
+   .title {
+       text-align: center;
+       padding-top: 0 !important;
+   }
+
+   .text-center {
+       margin: 0;
+ }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.row {
+  display: block;
+  width: 100%;
+}
+
+img, 
+embed,
+object, 
+video {
+	max-width: 100%;
+	}
+
+
