@@ -1,10 +1,10 @@
-  body {
+ body {
     font-family: "Cormorant Garamond", serif;
     color: #747704;
     font-weight: 300;
   }
 
-  .logo {
+.logo {
     width: 100px;
     height: 100px;
   }
@@ -39,15 +39,15 @@
     overflow: hidden;
   }
 
-  .row {
+.row {
     display: block;
     width: 100%;
   }
 
-  img, 
-  embed,
-  object, 
-  video {
+img, 
+embed,
+object, 
+video {
   	max-width: 100%;
   	}
 
